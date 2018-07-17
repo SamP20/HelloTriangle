@@ -1,0 +1,10 @@
+[package]
+name = "hello_triangle"
+version = "0.1.0"
+authors = ["Samuel Partridge <sampartr@gmail.com>"]
+
+[dependencies]
+sdl2 = {git = "https://github.com/Rua/rust-sdl2.git", features = ["bundled", "static-link"] }
+#sdl2 = {version = "0.31.0", features = ["bundled", "static-link"] }
+vulkano = "0.9"
+vulkano-shader-derive = "0.9"
